@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>[slide show title here]</title>
+	<title>Introduction to 3D Printing</title>
 
 	<!-- metadata -->
 
@@ -14,8 +14,8 @@
 	<!-- "presdate" identifies the date of the presentation.  Example: "20061231" is December 31 2006 -->
 	<meta name="presdate" content="20061231" />
 
-	<meta name="author" content="[name of author]" />
-	<meta name="company" content="[name of company/organization]" />
+	<meta name="author" content="Brock M. Tice, PhD" />
+	<meta name="company" content="Anfani LLC" />
 
 	<!-- configuration parameters -->
 		<!-- Set defaultView to "outline" if you want the default view to be as a plain web page; otherwise, use "slideshow." -->
@@ -50,34 +50,229 @@
 	</div>
 
 	<div id="footer">
-		<h1>[location/date of presentation]</h1>
-		<h2>[slide show title here]</h2>
+          <!-- it's silly to show the location and date of the --
+            -- presentation. Edited out. -->
 	</div>
 
 
 <div class="presentation">
 
 <div class="slide">
-	<h1>[slide show title here]</h1>
-	<h3>[name of presenter]</h3>
-	<h4>[affiliation of presenter]</h4>
+	<h1>Introduction to 3D Printing</h1>
+	<h3>Brock M. Tice</h3>
+	<h4>Anfani LLC</h4>
 </div>
 
 
 <div class="slide">
-	<h1>[slide title]</h1>
+	<h1>What is 3D Printing?</h1>
 	<ul>
-		<li>[point one]</li>
-		<li>[point two]</li>
-		<li>[point three]</li>
-		<li>[point four]</li>
-		<li>[point five]</li>
+		<li>Like a paper printer, but uses plastic</li>
+		<li>1 layer at a time</li>
+		<li>The print head can move up (Z direction)</li>
 	</ul>
 	<div class="handout">
-	[any material that should appear in print but not on the slide]
+          A 3D printer of the type most commonly used by hobbyists, a
+          so-called 'Fused Deposition Modeling' printer, works by
+          laying down one layer of plastic at a time, then moving the
+          print head upward, and putting another layer on top. This
+          method of 3D printing is simple and effective, but there are
+          certain limits to what shapes can be successfully printed.
 	</div>
 </div>
 
+<div class="slide">
+	<h1>What is 3D Printing Useful For?</h1>
+	<ul>
+		<li>Design on the computer, then make it real</li>
+		<li>Download, modify, print, and share</li>
+		<li>Make objects that don't exist, can't be bought in stores</li>
+                <li>Prototype designs</li>
+	</ul>
+	<div class="handout">
+          3D printing allows you to design objects, whether artistic
+          or functional, using powerful modeling tools on a computer,
+          where you can make changes essentially for free until you
+          are happy with the design. Then you can start the printer
+          and make the object out of plastic. 
+
+          You can also easily share your designs with others, or
+          download other people's designs from the Internet and then
+          print them as they are, or make your own modifications,
+          print, and share them. This enables more rapid development
+          of useful designs, because everyone can build off of each
+          others' work.
+
+          Sometimes when designing a new tool or toy, or trying to fix
+          something around the house, you need a piece of plastic in a
+          shape that you cannot simply buy from the store, or even
+          order from anywhere. That shape may not exist at all. In
+          this case, you can design the shape you need and then print
+          it. Later you can even use your 3D prints to create silicone
+          or other types of molds and mass-produce copies yourself.
+
+          Finally, if you are trying to design something, and need to
+          test your design to see how well it fits or functions, 3D
+          printing allows you to do this cheaply, before spending a
+          lot of time and money on the tooling to have something
+          manufactured.
+	</div>
+</div>
+
+<div class="slide">
+	<h1>Example: Blue Canary Night Light</h1>
+	<ul>
+		<li>Did not exist before</li>
+                <li>I knew how to sculpt shapes in Blender</li>
+                <li>Designed, went through a few prototypes</li>
+                <li>Finally finished piece and used to make molds, produce</li>
+                <li>Eventually went to mass-production via contract manufacturer</li>
+	</ul>
+	<div class="handout">
+          My first use of 3D printing was to develop a product, a blue
+          canary night light. I designed the canary in a 3D modeling
+          program called Blender, made some 3D renderings of it, and
+          then sent off the design to a 3D printing service called
+          Shapeways to have the first prototype printed. I tried
+          mounting this on a night light I found at the store, decided
+          it needed some tweaks and a change in size, and then had it
+          printed again by Shapeways. Finally, I arrived at a design
+          with which I was happy. I then sanded the print down, used
+          it to make a silicone mold, and started producing my own
+          copies using two-part urethane resin and blue dye.
+
+          Eventually, I was able to prove to myself that the market
+          existed for mass manufacturing, and hired a contract
+          manufacturer to make the lights for me. I have been selling
+          them for three years now, with hundreds of thousands of
+          dollars in sales. I do not have the sculpting skills to have
+          done this with hand tools, and the iterations of the design
+          would have been much more costly in terms of time.
+	</div>
+</div>
+
+<div class="slide">
+	<h1>Example: Blue Canary Night Light</h1>
+        <table>
+          <tr>
+            <td><img src="images/yellow_canaries.jpg" width="200px"/><br/>Source Image</td>
+            <td><img src="images/first_render.png" width="200px"/><br/>First render with one leg</td>
+            <td><img src="images/extruded_translucent_render.png" width="200px"/><br/>Simulated translucent render</td>
+          </tr>
+        </table>
+	<div class="handout">
+          I started with a random image of a yellow canary on the
+          Internet, and looked at that as a reference while I modeled
+          the canary in Blender, which is beyond the scope of this
+          talk, but I'm not and never have been an advanced Blender
+          user. I then gradually changed the model until I was happy
+          with it, and used the renders shown here to gauge interest
+          in my project on my web site, as well as to envision how the
+          model would look when made.
+	</div>
+</div>
+
+<div class="slide">
+	<h1>Example: Blue Canary Night Light</h1>
+	<ul>
+          <tr><td><img src="images/bcnl_in_socket_dim.jpg" height="400px"/></td></tr>
+	</ul>
+	<div class="handout">
+          This is what the finished product looks like. I still sell them today.
+	</div>
+</div>
+
+<div class="slide">
+	<h1>From Idea to Print (1 of 2)</h1>
+	<ol>
+		<li>Have idea</li>
+                <li>Model on computer
+                  <ul>
+                    <li>Sculpt - Blender, etc</li>
+                    <li>CAD - OpenSCAD, Freecad, Autodesk, etc</li>
+                  </ul>
+                </li>
+                <li>Slice - convert to printer instructions
+                  <ul>
+                    <li>Skeinforge - old way, more sophisticted, slow</li>
+                    <li>Slic3er - new way, faster, smarter, easier</li>
+                  </ul>
+                </li>
+        </ol>
+	<div class="handout">
+          The process of going from a an idea to a 3D print involves
+          several steps. First, you have to translate the idea into a
+          computer model of some sort. Typically you use an art-type
+          program (Blender or various commercial packages, Google
+          SketchUp) to sculpt things, a computer-aided-drafting or CAD
+          program (OpenSCAD, Freecad, stuff by Autodesk) for things
+          that need to have specific dimensions, or you can even take
+          data from the real world (3D scanner, medical imaging) and
+          convert that into a computer model. There are limits to what
+          a fused deposition modeling printer can print. Large
+          overhangs will either fail (can't print into empty space),
+          or require you to add support material to the design or the
+          processing.
+
+          Once the computer model is created, it must be processed
+          into instructions for the printer. This is done using a
+          so-called slicing program, because it slices the model into
+          layers. This step will have problems if your model is not
+          water-tight, or has other problems like incorrect
+          normals. There are many guides online for fixing these
+          problems. This step is also very sensitive to the settings
+          you use for slicing. They must be correct for your printer,
+          for the plastic you're using, and even for the physical
+          environment around the printer (temperature, air
+          movement). Generally you will want to review your settings
+          each time you make a print to be sure that they match your
+          goal. For instance, for mechanical objects you usually want
+          a solid print. For artistic objects, a hollow or
+          mostly-hollow print may suffice and will make your print
+          quicker, cheaper, and lighter.
+	</div>
+</div>
+
+<div class="slide">
+	<h1>From Idea to Print (2/2)</h1>
+        <ol start="4">
+                <li>Load into printer control software (Pronterface, repsnapper, repraphost, ReplicatorG)</li>
+                <li>Prepare printer (warm bed, hot end)</li>
+                <li>Print</li>
+                <li>Remove from bed/cleanup</li>
+	</ol>
+
+	<div class="handout">
+          The slicing program outputs instructions for the
+          printer. These are loaded into what's known as 'host
+          software', a program used to control the printer before,
+          during, and after a print. The host software is used to warm
+          up any relevant parts of the printer, position the component
+          axes of the printer appropriately, and start, run, and
+          finish the print.
+          
+          Finally, once the print is complete, it must be carefully
+          pried from the print bed (if using kapton or blue painters'
+          tape), or it will separate from a glass bed once allowed to
+          cool. You may find strings, blobs, or other defects in the
+          print that are usually cleaned up with a sharp hobby knife
+          or a pocketknife. Prints may then be finished if desired by
+          sanding, painting, or acetone bath (beyond the scope of this
+          presentation).
+	</div>
+</div>
+
+
+
+<div class="slide">
+	<h1>SLIDE TITLE</h1>
+	<ul>
+		<li>Item</li>
+	</ul>
+	<div class="handout">
+          Handout Content
+	</div>
+</div>
 
 </div>
 

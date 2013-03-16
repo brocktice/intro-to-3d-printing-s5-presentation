@@ -231,7 +231,7 @@ div#logo
 	position:absolute;
 	top:0%;
 	right:0%;
- 	background:url(pics/logo.png) 50% 50% no-repeat;
+/*  	background:url(pics/logo.png) 50% 50% no-repeat; */
 	height:280%;
 	width:150px;
 }
